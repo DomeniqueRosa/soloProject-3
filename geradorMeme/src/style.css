@@ -25,3 +25,52 @@ body {
   
   height: 100%;
 }
+.form{
+  /* border: #711F8D solid 1px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px 40px;
+}
+.btn{
+  color: #FFF;
+  text-align: center;
+  font-family: Karla;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  width: 100%;
+  color: white;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  
+  
+}
+input{
+  
+  margin: 10px 0;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 10px 50px;
+}
+.form--input{
+  display: flex;
+  
+  justify-content: center;
+ 
+
+}
+.form--input-1{
+  margin-right: 10px;
+}
+.form--img{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 36px 0 0 0;
+    margin: auto;
+    width: 98%;
+}
