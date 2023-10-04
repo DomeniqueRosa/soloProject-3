@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Beauty;
+  src: url(BeautyFlowers.ttf);
+}
+@font-face {
+  font-family: Pinzelar;
+  src: url(PinzelanRegular.ttf);
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Pinzelar;
+  
+}
