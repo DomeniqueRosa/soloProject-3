@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './style.css'
+import Header from './Header'
 
 function App() {
 
   return (
     <div>
-        <h1>Projeto 3 - Gerador meme.</h1>
+       <Header />
     </div>
   )
 }

@@ -8,8 +8,20 @@
 }
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  font-family: Pinzelar;
   
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  align-items: center;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  font-size: 12px;
+  padding: 10px 40px;
+
+}
+.img--logo{
+  
+  height: 100%;
 }
