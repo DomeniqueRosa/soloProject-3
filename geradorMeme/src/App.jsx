@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './style.css'
 import Header from './Header'
 import Meme from './Meme'
-
-function App() {
-
+import dados from './memeData'
+function App() { 
+  console.log(dados)
   return (
     <div>
        <Header />
